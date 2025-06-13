@@ -90,4 +90,5 @@ def scatter(entered_site,payload):
 
 # Run the app
 if __name__ == '__main__':
-    app.run()
+    # Use Dash's built-in server runner
+    app.run_server()
